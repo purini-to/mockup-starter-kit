@@ -6,6 +6,8 @@ mockup-starter-kit
 * Design template in the initial state : ([Google material design](https://material.google.com/))
 * You can freely design for the minimum configuration
 
+![image](https://raw.githubusercontent.com/purini-to/mockup-starter-kit/master/doc/images/demo.gif)
+
 ## Install
 
 ```
