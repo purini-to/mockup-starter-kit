@@ -3,6 +3,7 @@ var plumber = require('gulp-plumber');
 var notify = require('gulp-notify');
 var extender = require('gulp-html-extend');
 var watch = require('gulp-watch');
+var htmlhint = require("gulp-htmlhint");
 var browserSync = require('browser-sync');
 
 gulp.task('build', () => {
@@ -15,6 +16,8 @@ gulp.task('build', () => {
       verbose: false,
       root: './src'
     }))
+    .pipe(htmlhint())
+    .pipe(htmlhint.failReporter())
     .pipe(gulp.dest('./dist/'))
     .pipe(browserSync.reload({
       stream: true
