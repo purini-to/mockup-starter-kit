@@ -12,10 +12,18 @@
   "devDependencies": {
     "browser-sync": "^2.12.9",
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-csscomb": "^3.0.7",
+    "gulp-csslint": "^1.0.0",
+    "gulp-filter": "^4.0.0",
     "gulp-html-extend": "^1.1.6",
     "gulp-htmlhint": "^0.3.1",
+    "gulp-jshint": "^2.0.1",
     "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.1.0",
-    "gulp-watch": "^4.3.6"
+    "gulp-watch": "^4.3.6",
+    "htmlhint-stylish": "^1.0.3",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1"
   }
 }

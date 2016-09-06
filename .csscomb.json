@@ -1,0 +1,18 @@
+{
+  "remove-empty-rulesets": true,
+  "always-semicolon": true,
+  "color-case": "lower",
+  "block-indent": "  ",
+  "color-shorthand": false,
+  "element-case": "lower",
+  "eof-newline": true,
+  "leading-zero": false,
+  "quotes": "single",
+  "sort-order-fallback": "abc",
+  "space-before-closing-brace": "",
+  "strip-spaces": true,
+  "tab-size": true,
+  "unitless-zero": true,
+  "vendor-prefix-align": true,
+  "sort-order": []
+}
