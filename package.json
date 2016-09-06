@@ -1,0 +1,20 @@
+{
+  "name": "mockup-starter-kit",
+  "version": "0.0.3",
+  "description": "Mockup starter kit. Use gulp,gulp-html-extend",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "author": "purini-to",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.12.9",
+    "gulp": "^3.9.1",
+    "gulp-html-extend": "^1.1.6",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-watch": "^4.3.6"
+  }
+}
